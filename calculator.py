@@ -3,17 +3,16 @@ num2 = 5
 
 def addition():
     add = num1 + num2
-    print(add)
+    print("addition of the numbers : " + str(add))
 
 def subtraction():
     sub = num1 - num2
-    print(sub)
+    print("subtraction of the numbers : " + str(sub))
 
 def multiplication():
     mul = num1 * num2
-    print(mul)
+    print("multiplication of the numbers : " + str(mul))
 
 addition()
 subtraction()
 multiplication()
-
